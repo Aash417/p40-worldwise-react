@@ -4,7 +4,7 @@ import User from '../components/User';
 
 import styles from './AppLayout.module.css';
 
-function AppLayout() {
+function Applayout() {
    return (
       <div className={styles.app}>
          <Sidebar />
@@ -14,4 +14,4 @@ function AppLayout() {
    );
 }
 
-export default AppLayout;
+export default Applayout;
