@@ -1,9 +1,10 @@
-import Sidebar from '../components/Sidebar';
-import styles from './Applayout.module.css';
 import Map from '../components/Map';
+import Sidebar from '../components/Sidebar';
 import User from '../components/User';
 
-function Applayout() {
+import styles from './AppLayout.module.css';
+
+function AppLayout() {
    return (
       <div className={styles.app}>
          <Sidebar />
@@ -13,4 +14,4 @@ function Applayout() {
    );
 }
 
-export default Applayout;
+export default AppLayout;
