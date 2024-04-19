@@ -5,9 +5,9 @@ import { CitiesProvider } from './contexts/CitiesContext';
 import { AuthProvider } from './contexts/FakeAuthContext';
 import ProctedRoute from './pages/ProctedRoute';
 
-import CityList from './components/cityList';
-import CountryList from './components/CountryList';
 import City from './components/City';
+import CityList from './components/CityList';
+import CountryList from './components/CountryList';
 import Form from './components/Form';
 import SpinnerFullPage from './components/SpinnerFullPage';
 
